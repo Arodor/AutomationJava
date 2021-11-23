@@ -4,7 +4,7 @@ public class numChecker {
 
         printNums(10,20,33);
     }
-
+//
 
     public static void printNums(int a, int b, int c){
 
