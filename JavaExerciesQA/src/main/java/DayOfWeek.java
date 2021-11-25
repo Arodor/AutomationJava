@@ -46,5 +46,6 @@ public class DayOfWeek {
             default:
                 System.out.println("Invalid number of a week, please try again!");
         }
+
     }
 }
