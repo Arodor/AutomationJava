@@ -1,25 +1,22 @@
 public class numChecker {
     public static void main(String[] args) {
 
-
-        printNums(10,20,33);
+        // Compare a b c
+        compareNums(10, 20, 33);
     }
 //
 
-    public static void printNums(int a, int b, int c){
+    public static void compareNums(int a, int b, int c) {
 
-        if ((a>b) && (a> c))
-        {
-            System.out.println("The greatest number is "+ a);
+        if ((a > b) && (a > c)) {
+            System.out.println("The greatest number is " + a);
         }
-        if (b>a && b>c)
-        {
-            System.out.println("The greatest number is "+ b);
+        if (b > a && b > c) {
+            System.out.println("The greatest number is " + b);
 
         }
-        if (c>a && b<c)
-        {
-            System.out.println("The greatest number is "+ c);
+        if (c > a && b < c) {
+            System.out.println("The greatest number is " + c);
 
         }
     }

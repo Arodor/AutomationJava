@@ -7,16 +7,19 @@ public class checkStrings {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("We are going to compare two words of your choice");
+        System.out.println("Please enter the first word: ");
         firstInput = input.nextLine();
+
+        System.out.println("Please enter the second word: ");
         SecondInput = input.nextLine();
         input.close();
 
 
-        if (firstInput.equals(SecondInput)){
-            System.out.println("The stings are equal!!");
-        }
-        else {
-            System.out.println("We can not compare the two words as they are different.");
+        if (firstInput.equals(SecondInput)) {
+            System.out.println("The words you have entered are same!");
+        } else {
+            System.out.println("The words you have entered are not the same!!");
         }
 
     }

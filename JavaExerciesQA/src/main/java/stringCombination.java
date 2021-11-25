@@ -6,15 +6,22 @@ public class stringCombination {
 
         Scanner input = new Scanner(System.in);
 
-        String firstInput = input.nextLine();
-        String secondInput = input.nextLine();
-        String thirdInput = input.nextLine();
-        String fourthInput = input.nextLine();
+        System.out.println("Please enter your first word: ");
+        String firstInput = input.nextLine().trim();
+
+        System.out.println("Please enter your second word: ");
+        String secondInput = input.nextLine().trim();
+
+        System.out.println("Please enter your third word: ");
+        String thirdInput = input.nextLine().trim();
+
+        System.out.println("Please enter your fourth word: ");
+        String fourthInput = input.nextLine().trim();
 
         //buffer clear
         input.close();
 
-        System.out.println(firstInput + secondInput + thirdInput + fourthInput);
+        System.out.println("The combination of your words is: " + firstInput + secondInput + thirdInput + fourthInput);
 
     }
 
