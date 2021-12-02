@@ -10,8 +10,7 @@ public class OddOrEven {
 
     }
 
-    public static void oddOrEvenChecker(int a) {
-
+    private static void oddOrEvenChecker(int a) {
 
         if (a % 2 == 0) {
             System.out.println("The number you have entered is even.");
@@ -20,3 +19,7 @@ public class OddOrEven {
         }
     }
 }
+
+
+
+
