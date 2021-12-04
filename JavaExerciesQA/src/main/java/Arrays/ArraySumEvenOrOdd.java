@@ -7,10 +7,8 @@ public class ArraySumEvenOrOdd {
         int even = 0;
         int odd = 0;
         for (int element : elements) {
-
             if (element % 2 == 0) {
                 even += element;
-
             }
             odd += element;
 
